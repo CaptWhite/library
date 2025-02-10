@@ -13,7 +13,7 @@ export async function fetchAndSavePDF(urlDrive) {
 
     const auth = new google.auth.GoogleAuth({
         keyFile: './credenciales.json', // Ruta al archivo JSON descargado desde Google Cloud Console
-        credentials: credentials,
+        //credentials: credentials,
         scopes: ['https://www.googleapis.com/auth/drive.readonly'],
         });
 
